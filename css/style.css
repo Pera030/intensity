@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,900|Pacifico&display=swap');
+
+:root {
+    --orange: #F6755E;
+    --blue: #25A2C3;
+    --gray: #767D85;
+    --white: #fff;
+}
+
+/*****************
+Basic styles
+*****************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    color: var(--gray);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.cf {
+    clear: both;
+}
+
+/*****************
+Header
+*****************/
+
+header {
+    background-image: linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,.8)),url(../images/slika5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    padding: 160px 300px 300px 300px;
+    text-align: center;
+}
+
+header .logo {
+    color: var(--blue);
+    font-size: 4rem;
+    font-family: 'Pacifico', cursive;
+}
+
+header p {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+header button {
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 15px 40px;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: var(--blue);
+    transition: .4s ease;
+}
+
+/*****************
+O N E
+*****************/
+
+.one {
+    padding: 80px 0;
+}
+
+.one article {
+    float:left;
+    width: 33%;
+    padding: 30px;
+}
+
+.one img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.one h2 {
+    color: var(--blue);
+    padding-bottom: 20px;
+    
+}
+
+.one p {
+    line-height: 1.5;
+}
+
+.one article:nth-child(1) {
+    text-align: right;
+    padding-top: 60px;
+}
+
+.one article:nth-child(3) {
+    padding-top: 60px;
+}
+
+/*****************
+T W O
+*****************/
+
+.two {
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 100px;
+    text-align: center;
+}
+
+.two h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+}
+
+.two blockqoute {
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.two h5 {
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+}
+
+.two p {
+    font-weight: 300;
+}
+
+/*****************
+T H R E E
+*****************/
+
+.three {
+    padding: 80px 0;
+}
+
+.three article {
+    float: left;
+    width: 33%;
+}
+
+.three article .wrapper {
+    margin: 20px;
+    border: 1px solid var(--gray);
+}
+
+.three .wrapper .text {
+    margin: 20px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.three .text h3 {
+    color: var(--blue);
+}
+
+.three .img1 {
+    background-image: url(../images/slika3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.three .img2 {
+    background-image: url(../images/slika2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.three .img3 {
+    background-image: url(../images/slika4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+/*****************
+F O O T E R
+*****************/
+
+footer {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 100px 0;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+footer .three_columns article {
+    float: left;
+    width: 33%;
+    padding: 30px 0;
+}
+
+footer .three_columns article i {
+    color: var(--orange);
+}
+
+footer hr {
+    width: 50%;
+    margin: 30px auto 50px auto;
+    border: none;
+    height: 2px;
+    background-color: var(--white);
+}
+
+footer .copy {
+    font-size: .8rem;
+    opacity: .7;
+}
+
+
+
+
+
+
+
